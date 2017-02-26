@@ -1,0 +1,125 @@
+/*general styles*/
+body {
+font-family: 'Open Sans', sans-serif;
+color: #5C5C64
+}
+
+#index-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 2px solid lightgrey;
+}
+
+.logo p {
+  text-align: center;
+  padding-top: 6%;
+  font-size: 70px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.nav-line {
+  display: inline-block;
+}
+
+ul {
+  display: inline-block;
+  margin-left: -30px;
+}
+
+li {
+  display: inline-block;
+  padding: 7px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #5c5c5c;
+}
+
+/*index.html*/
+
+a {
+  display: inline-block;
+  color: black;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.carousel img {
+  width: 80%;
+  margin-bottom: 10%;
+}
+
+/*about.html*/
+
+.index-about {
+  text-align: center;
+  margin: 5% 12% 5% 12%;
+  font-size: 16px;
+  color: black;
+}
+
+/*projects.html*/
+
+.images {
+  text-align: center;
+}
+
+.project {
+  margin-right: -20px;
+}
+
+.project-div {
+  width: 600px;
+  height: 350px;
+  margin-bottom: 10%;
+}
+
+.res {
+  background-image: url("../img/residential.jpg");
+  opacity: .8;
+}
+
+.yacht {
+  background-image: url("../img/yachts.jpg");
+  opacity: .8;
+}
+
+.comm {
+  background-image: url("../img/commercial.jpg");
+  opacity: .8;
+}
+
+.project-div p {
+  padding-top: 48%;
+  font-size: 35px;
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*project pages*/
+
+.portfolio-images {
+  text-align: center;
+}
+
+.portfolio-div {
+  width: 350px;
+  margin-bottom: 10%;
+}
+
+.portfolio-div img {
+  width: 300px;
+  height: 180px;
+}
